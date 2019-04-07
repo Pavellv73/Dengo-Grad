@@ -26,7 +26,7 @@
 }
 @media (min-width: 768px) {
 	.fancybox-wrap {
-		width: 50%!important;
+		width: 80%!important;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -35,7 +35,7 @@
 }
 @media (min-width: 1280px) {
 	.fancybox-wrap {
-		width: 30%!important;
+		width: 50%!important;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -70,7 +70,6 @@
 .fancybox-inner {
 	width: 100%!important;
 	overflow: hidden;
-	height: auto!important;
 }
 
 .fancybox-type-iframe .fancybox-inner {

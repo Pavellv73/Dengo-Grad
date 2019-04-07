@@ -1,0 +1,179 @@
+header
+  width 100%
+  height auto
+  background-image linear-gradient(180deg, #49b2d0 0%, #67bfd9 100%)
+
+  .header-content
+    width 100%
+    height auto
+    display flex
+    display -webkit-flex
+    justify-content space-between
+    align-items center
+    flex-direction row
+    padding-top 12px
+    padding-bottom 12px
+    box-sizing border-box
+
+    .logo-block
+      width 67px
+      height auto
+      @media (min-width 768px)
+        width 126px
+
+      img
+        width 100%
+        height auto
+
+    .menu-container
+      display none
+      @media (min-width 1280px)
+        width auto
+        display block
+
+        ul
+          display flex
+          display -webkit-flex
+          justify-content space-between
+          align-items center
+          flex-direction row
+
+          li
+            width auto
+            margin 0 15px
+
+          a
+            width auto
+            color #ffffff
+            font-family "GillSansC"
+            font-size 12px
+            letter-spacing 1px
+            text-transform uppercase
+            font-weight 200
+            transition all 0.2s ease
+            &:hover
+              color #d4f6ff
+
+    .extradition
+      display none
+      @media (min-width 768px)
+        display block
+
+        p
+          color #ffffff
+          font-size 12px
+          font-weight 700
+          letter-spacing 1px
+          text-transform uppercase
+          text-align center
+
+          span
+            color #ffffff
+            font-family "GillSansLightC"
+            font-size 20px
+            font-weight 100
+            letter-spacing 1px
+            text-transform uppercase
+
+    .reg-block
+      display none
+      @media (min-width 1280px)
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction row
+
+        .reg-link
+          color #ffffff
+          font-family "GillSansC"
+          font-size 16px
+          font-weight 400
+          letter-spacing 1px
+          text-decoration underline
+          margin-right 12px
+          transition all 0.2s ease
+          &:hover
+            color #d4f6ff
+
+    .burger-block
+      width 24px
+      height 16px
+      background-image url("img/burger.svg")
+      background-size 100%
+      background-position center center
+      background-repeat no-repeat
+      &:active, &:focus
+        background-image url("img/close.svg")
+        background-size 100%
+        background-position center center
+        background-repeat no-repeat
+      @media (min-width 768px)
+        width 90px
+        height 24px
+        background-size auto
+        background-position center right
+        &:active, &:focus
+          background-image url("img/close.svg")
+          background-size auto
+          background-position center right
+          background-repeat no-repeat
+      @media (min-width 1280px)
+        display none
+
+    .habmenu
+      display none
+      width 100%
+      height auto
+      position absolute
+      top 53px
+      background-image linear-gradient(180deg, #67bfd9 0%, #49b2d0 100%)
+      left 0
+      right 0
+      padding-top 20px
+      padding-bottom 24px
+      @media (min-width 768px)
+        top 76px
+
+      ul
+        width 100%
+        height auto
+
+        li
+          width 100%
+          height auto
+          margin-bottom 24px
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+
+
+          a.reg-link
+            color #ffffff
+            font-family "GillSansC"
+            font-size 16px
+            font-weight 400
+            letter-spacing 1px
+            text-decoration underline
+            margin-bottom 24px
+            transition all 0.2s ease
+            &:hover
+              color #d4f6ff
+
+          a
+            color #ffffff
+            font-family "GillSansC"
+            font-size 18px
+            font-weight 600
+            text-transform uppercase
+            letter-spacing 1px
+            text-decoration none
+            text-align center
+            transition all 0.2s ease
+            &:hover
+              color #d4f6ff
+
+    .hab-visible
+      display flex
+

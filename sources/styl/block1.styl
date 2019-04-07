@@ -1,0 +1,1055 @@
+.block1
+  width 100%
+  height auto
+  background-image url("img/bg-main.png")
+  background-size cover
+  background-repeat no-repeat
+  background-position center center
+  padding-top 32px
+  padding-bottom 25px
+
+  .block1-content
+    width 100%
+    height auto
+    display flex
+    display -webkit-flex
+    justify-content center
+    align-items center
+    flex-direction column
+    @media (min-width 1280px)
+      justify-content space-between
+      flex-direction row
+
+    .block1-head
+      width 100%
+      height auto
+      margin-bottom 32px
+      @media (min-width 768px)
+        width 60%
+      @media (min-width 1280px)
+        width 50%
+
+      h1
+        margin-bottom 16px
+
+      p
+        color #434f77
+        font-size 17px
+        font-weight 100
+        letter-spacing 1px
+        @media (min-width 768px)
+          color #434f77
+          font-family "GillSansLightC"
+          font-size 22px
+          font-weight 300
+          letter-spacing 1px
+
+      .icons-home-blocks
+        display none
+        @media (min-width 768px)
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          padding-top 32px
+
+        .icon-block
+          width 100%
+          display flex
+          display -webkit-flex
+          justify-content flex-start
+          align-items center
+          flex-direction row
+          margin-bottom 24px
+          &:nth-of-type(3)
+            margin-bottom 0
+
+          img
+            margin-right 8px
+
+
+    .calculator-block
+      width 100%
+      height auto
+      @media (min-width 1280px)
+        width 540px
+
+      .calculator
+        width 100%
+        height auto
+        box-shadow 0 2px 15px rgba(0, 0, 0, 0.1)
+        border-radius 4px
+        border 1px solid #e4e4e4
+        background-color #ffffff
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+        padding 24px 0
+        @media (min-width 768px)
+          width 540px
+          margin 0 auto
+          padding-top 24px
+          padding-bottom 11px
+        @media (min-width 1280px)
+          width 100%
+
+        .button-block
+          width 100%
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          margin-bottom 24px
+          @media (min-width 768px)
+            flex-direction row
+            width 460px
+            justify-content flex-start
+            position relative
+
+
+          .button-blue
+            margin-bottom 12px
+            @media (min-width 768px)
+              margin-bottom 0
+              z-index 1
+
+          .button-white
+            margin-bottom 12px
+            @media (min-width 768px)
+                border 1px solid #003459
+                opacity 0.3
+                background-color transparent
+                position absolute
+                left 0
+                z-index 0
+                width 460px
+                display flex
+                display -webkit-flex
+                justify-content flex-end
+                padding-right 28px
+
+          .but-bl
+            width 258px
+            height 40px
+            border-radius 4px
+            padding 12px 0
+            box-sizing border-box
+            color #fff
+            font-family "GillSansC"
+            font-size 14px
+            font-weight 400
+            text-transform uppercase
+            letter-spacing 1px
+            border none
+            transition all 0.1s ease
+            margin-bottom 12px
+            background-image linear-gradient(180deg, #1ea0c4 0%, #43afcf 100%)
+            @media (min-width 768px)
+              border 1px solid #43afcf
+              background-color transparent
+              position absolute
+              left 0
+              z-index 0
+              width 460px
+              display flex
+              display -webkit-flex
+              justify-content flex-end
+              padding-right 28px
+
+
+
+          .but-whit
+            border 1px solid rgba(67, 175, 207, 0.12)
+            width 258px
+            height 40px
+            border-radius 4px
+            background-color #fff
+            padding 14px 0
+            box-sizing border-box
+            color rgba(43, 61, 152, 0.22)
+            font-family "GillSansC"
+            font-size 14px
+            font-weight 300
+            letter-spacing 1px
+            text-transform uppercase
+            transition all 0.1s ease
+            margin-bottom 0
+            z-index 1
+            &:hover
+              background-image linear-gradient(to top, #3ea4c3 0%, #1992b3 100%)
+
+
+        .one-calc
+          width 100%
+          margin 0
+          padding 0
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+
+
+          .cal-text-block
+            width 100%
+            height auto
+            margin-bottom 24px
+
+            p
+              font-family "GillSansLightC"
+              font-size 16px
+              color #0b0f18
+              font-weight 100
+              letter-spacing 1px
+              padding 0 14px
+              text-align center
+              @media (min-width 768px)
+                font-size 18px
+                color #0b0f18
+                font-weight 300
+                letter-spacing 1px
+                br
+                  display none
+
+              span
+                color #d9292f
+                font-weight 600
+                letter-spacing 1px
+                @media (min-width 768px)
+                  color #d9292f
+                  font-weight 600
+                  letter-spacing 1px
+
+          .summ-blocks
+            width 100%
+            height auto
+            background-color #edfbff
+            padding-top 26px
+            padding-bottom 26px
+            @media (min-width 768px)
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction row
+
+
+            .summ-block
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              padding 0 15px
+              box-sizing border-box
+              &:nth-of-type(1)
+                margin-bottom 24px
+              @media (min-width 768px)
+                width 46%
+                &:nth-of-type(1)
+                  margin-bottom 0
+
+              .one-sum
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                @media (min-width 768px)
+                  justify-content space-around
+
+
+                p
+                  color #0b0f18
+                  font-family "GillSansC"
+                  font-size 18px
+                  font-weight 400
+                  letter-spacing 1px
+
+                span
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-weight 300
+                  font-size 30px
+
+              .switch
+
+              .one-s
+                position relative
+                &:before
+                  content "2 000 руб."
+                  width auto
+                  height 14px
+                  opacity 0.25
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  position absolute
+                  top 20px
+                  left -20px
+                  @media (min-width 768px)
+                    left 0
+                &:after
+                  content "6 000 руб."
+                  width auto
+                  height 14px
+                  opacity 0.25
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  position absolute
+                  top 20px
+                  right -20px
+                  @media (min-width 768px)
+                    right 0
+
+                input[type=range]
+                  width 213px
+                  height 7px
+                  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.07)
+                  border-radius 2px
+                  background-color #e7e7e7
+
+                input[type=range]::-webkit-slider-runnable-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.07)
+                  border-radius 2px
+                  background-color #e7e7e7
+                  border 0
+
+                input[type=range]::-webkit-slider-thumb
+                  box-shadow 2.2px 2.2px 2.9px rgba(0, 0, 0, 0.17), 0px 0px 2.2px rgba(13, 13, 13, 0.17)
+                  border 5px solid rgba(0, 0, 0, 0.13)
+                  height 20px
+                  width 20px
+                  border-radius 50px
+                  background #ffffff
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+
+                input[type=range]:focus::-webkit-slider-runnable-track
+                  background #68d1f0
+
+                input[type=range]::-moz-range-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+                  background #68d1f0
+                  border-radius 1.3px
+                  border 0.2px solid #010101
+
+                input[type=range]::-moz-range-thumb
+                  box-shadow 2.2px 2.2px 2.9px rgba(0, 0, 0, 0.17), 0px 0px 2.2px rgba(13, 13, 13, 0.17)
+                  border 5px solid rgba(0, 0, 0, 0.13)
+                  height 20px
+                  width 20px
+                  border-radius 50px
+                  background #ffffff
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+                  cursor pointer
+
+                input[type=range]::-ms-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  background transparent
+                  border-color transparent
+                  border-width 16px 0
+                  color transparent
+
+                input[type=range]::-ms-fill-lower
+                  background #68d1f0
+                  border 0.2px solid #010101
+                  border-radius 2.6px
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+
+                input[type=range]::-ms-fill-upper
+                  background #68d1f0
+                  border 0.2px solid #010101
+                  border-radius 2.6px
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+
+                input[type=range]::-ms-thumb
+                  width 20px
+                  height 20px
+                  box-shadow 0 1px 1px rgba(0, 0, 0, 0.14)
+                  background-color #ffffff
+                  cursor pointer
+
+              .two-s
+                position relative
+                &:before
+                  content "4 дня"
+                  width auto
+                  height 14px
+                  opacity 0.25
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  position absolute
+                  top 20px
+                  left -20px
+                  @media (min-width 768px)
+                    left 0
+                &:after
+                  content "30 дней"
+                  width auto
+                  height 14px
+                  opacity 0.25
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  position absolute
+                  top 20px
+                  right -20px
+                  @media (min-width 768px)
+                    right 0
+
+                input[type=range]
+                  width 213px
+                  height 7px
+                  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.07)
+                  border-radius 2px
+                  background-color #e7e7e7
+
+                input[type=range]::-webkit-slider-runnable-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.07)
+                  border-radius 2px
+                  background-color #e7e7e7
+                  border 0
+
+                input[type=range]::-webkit-slider-thumb
+                  box-shadow 2.2px 2.2px 2.9px rgba(0, 0, 0, 0.17), 0px 0px 2.2px rgba(13, 13, 13, 0.17)
+                  border 5px solid rgba(0, 0, 0, 0.13)
+                  height 20px
+                  width 20px
+                  border-radius 50px
+                  background #ffffff
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+
+                input[type=range]:focus::-webkit-slider-runnable-track
+                  background #68d1f0
+
+                input[type=range]::-moz-range-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+                  background #3071a9
+                  border-radius 1.3px
+                  border 0.2px solid #010101
+
+                input[type=range]::-moz-range-thumb
+                  box-shadow 2.2px 2.2px 2.9px rgba(0, 0, 0, 0.17), 0px 0px 2.2px rgba(13, 13, 13, 0.17)
+                  border 5px solid rgba(0, 0, 0, 0.13)
+                  height 20px
+                  width 20px
+                  border-radius 50px
+                  background #ffffff
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+
+                input[type=range]::-ms-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  background transparent
+                  border-color transparent
+                  border-width 16px 0
+                  color transparent
+
+                input[type=range]::-ms-fill-lower
+                  background #2a6495
+                  border 0.2px solid #010101
+                  border-radius 2.6px
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+
+                input[type=range]::-ms-fill-upper
+                  background #3071a9
+                  border 0.2px solid #010101
+                  border-radius 2.6px
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+
+                input[type=range]::-ms-thumb
+                  width 20px
+                  height 20px
+                  box-shadow 0 1px 1px rgba(0, 0, 0, 0.14)
+                  background-color #ffffff
+                  cursor pointer
+
+          .content-row
+            @media (min-width 768px)
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              flex-direction row
+              padding-top 36px
+
+            .end-blocks
+              width 100%
+              height auto
+              padding 20px 15px
+              box-sizing border-box
+              @media (min-width 768px)
+                width 50%
+                padding-top 0
+                padding-bottom 20px
+                padding-right 0
+                padding-left 20px
+
+
+              .end-block
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                @media (min-width 768px)
+                  margin-bottom 11px
+
+
+                p
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 18px
+                  font-weight 300
+                  letter-spacing 1px
+
+                span
+                  color #0b0f18
+                  font-family "GillSansC"
+                  font-size 18px
+                  font-weight 600
+                  letter-spacing 1px
+
+
+            .good-block
+              width 100%
+              height auto
+              padding 0 15px
+              box-sizing border-box
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              @media (min-width 768px)
+                width 50%
+                justify-content flex-start
+                align-items flex-start
+
+
+              .gb
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                margin-bottom 29px
+                @media (min-width 768px)
+                  margin-bottom 16px
+                  width 80%
+
+                p
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 18px
+                  font-weight 300
+                  letter-spacing 1px
+                  line-height 18px
+
+                span
+                  opacity 0.83
+                  color #0b0f18
+                  font-family "GillSansC"
+                  font-size 36px
+                  font-weight 600
+                  letter-spacing 1px
+
+              button
+                margin-bottom 12px
+                border none
+
+
+
+        .two-calc
+          display flex
+          width 100%
+          margin 0
+          padding 0
+          justify-content center
+          align-items center
+          flex-direction column
+
+
+          .cal-text-block
+            width 100%
+            height auto
+            margin-bottom 24px
+
+            p
+              font-family "GillSansLightC"
+              font-size 16px
+              color #0b0f18
+              font-weight 100
+              letter-spacing 1px
+              padding 0 14px
+              text-align center
+              @media (min-width 768px)
+                font-size 18px
+                color #0b0f18
+                font-weight 300
+                letter-spacing 1px
+                br
+                  display none
+
+              span
+                color #d9292f
+                font-weight 600
+                letter-spacing 1px
+                @media (min-width 768px)
+                  color #d9292f
+                  font-weight 600
+                  letter-spacing 1px
+
+          .summ-blocks
+            width 100%
+            height auto
+            background-color #edfbff
+            padding-top 26px
+            padding-bottom 26px
+            @media (min-width 768px)
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction row
+
+
+            .summ-block
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              padding 0 15px
+              box-sizing border-box
+              &:nth-of-type(1)
+                margin-bottom 24px
+              @media (min-width 768px)
+                width 46%
+                &:nth-of-type(1)
+                  margin-bottom 0
+
+              .one-sum
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                @media (min-width 768px)
+                  justify-content space-around
+
+
+                p
+                  color #0b0f18
+                  font-family "GillSansC"
+                  font-size 18px
+                  font-weight 400
+                  letter-spacing 1px
+
+                span
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-weight 300
+                  font-size 30px
+
+              .switch
+
+              .one-s
+                position relative
+                &:before
+                  content "2 000 руб."
+                  width auto
+                  height 14px
+                  opacity 0.25
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  position absolute
+                  top 20px
+                  left -20px
+                  @media (min-width 768px)
+                    left 0
+                &:after
+                  content "6 000 руб."
+                  width auto
+                  height 14px
+                  opacity 0.25
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  position absolute
+                  top 20px
+                  right -20px
+                  @media (min-width 768px)
+                    right 0
+
+                input[type=range]
+                  width 213px
+                  height 7px
+                  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.07)
+                  border-radius 2px
+                  background-color #e7e7e7
+
+                input[type=range]::-webkit-slider-runnable-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.07)
+                  border-radius 2px
+                  background-color #e7e7e7
+                  border 0
+
+                input[type=range]::-webkit-slider-thumb
+                  box-shadow 2.2px 2.2px 2.9px rgba(0, 0, 0, 0.17), 0px 0px 2.2px rgba(13, 13, 13, 0.17)
+                  border 5px solid rgba(0, 0, 0, 0.13)
+                  height 20px
+                  width 20px
+                  border-radius 50px
+                  background #ffffff
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+
+                input[type=range]:focus::-webkit-slider-runnable-track
+                  background #68d1f0
+
+                input[type=range]::-moz-range-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+                  background #3071a9
+                  border-radius 1.3px
+                  border 0.2px solid #010101
+
+                input[type=range]::-moz-range-thumb
+                  box-shadow 2.2px 2.2px 2.9px rgba(0, 0, 0, 0.17), 0px 0px 2.2px rgba(13, 13, 13, 0.17)
+                  border 5px solid rgba(0, 0, 0, 0.13)
+                  height 20px
+                  width 20px
+                  border-radius 50px
+                  background #ffffff
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+                  cursor pointer
+
+                input[type=range]::-ms-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  background transparent
+                  border-color transparent
+                  border-width 16px 0
+                  color transparent
+
+                input[type=range]::-ms-fill-lower
+                  background #2a6495
+                  border 0.2px solid #010101
+                  border-radius 2.6px
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+
+                input[type=range]::-ms-fill-upper
+                  background #3071a9
+                  border 0.2px solid #010101
+                  border-radius 2.6px
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+
+                input[type=range]::-ms-thumb
+                  width 20px
+                  height 20px
+                  box-shadow 0 1px 1px rgba(0, 0, 0, 0.14)
+                  background-color #ffffff
+                  cursor pointer
+
+              .two-s
+                position relative
+                &:before
+                  content "4 дня"
+                  width auto
+                  height 14px
+                  opacity 0.25
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  position absolute
+                  top 20px
+                  left -20px
+                  @media (min-width 768px)
+                    left 0
+                &:after
+                  content "30 дней"
+                  width auto
+                  height 14px
+                  opacity 0.25
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  position absolute
+                  top 20px
+                  right -20px
+                  @media (min-width 768px)
+                    right 0
+
+                input[type=range]
+                  width 213px
+                  height 7px
+                  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.07)
+                  border-radius 2px
+                  background-color #e7e7e7
+
+                input[type=range]::-webkit-slider-runnable-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.07)
+                  border-radius 2px
+                  background-color #e7e7e7
+                  border 0
+
+                input[type=range]::-webkit-slider-thumb
+                  box-shadow 2.2px 2.2px 2.9px rgba(0, 0, 0, 0.17), 0px 0px 2.2px rgba(13, 13, 13, 0.17)
+                  border 5px solid rgba(0, 0, 0, 0.13)
+                  height 20px
+                  width 20px
+                  border-radius 50px
+                  background #ffffff
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+
+                input[type=range]:focus::-webkit-slider-runnable-track
+                  background #68d1f0
+
+                input[type=range]::-moz-range-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+                  background #3071a9
+                  border-radius 1.3px
+                  border 0.2px solid #010101
+
+                input[type=range]::-moz-range-thumb
+                  box-shadow 2.2px 2.2px 2.9px rgba(0, 0, 0, 0.17), 0px 0px 2.2px rgba(13, 13, 13, 0.17)
+                  border 5px solid rgba(0, 0, 0, 0.13)
+                  height 20px
+                  width 20px
+                  border-radius 50px
+                  background #ffffff
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+                  cursor pointer
+
+                input[type=range]::-ms-track
+                  width 100%
+                  height 8.4px
+                  cursor pointer
+                  animate 0.2s
+                  background transparent
+                  border-color transparent
+                  border-width 16px 0
+                  color transparent
+
+                input[type=range]::-ms-fill-lower
+                  background #2a6495
+                  border 0.2px solid #010101
+                  border-radius 2.6px
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+
+                input[type=range]::-ms-fill-upper
+                  background #3071a9
+                  border 0.2px solid #010101
+                  border-radius 2.6px
+                  box-shadow 1px 1px 1px #000000, 0px 0px 1px #0d0d0d
+
+                input[type=range]::-ms-thumb
+                  width 20px
+                  height 20px
+                  box-shadow 0 1px 1px rgba(0, 0, 0, 0.14)
+                  background-color #ffffff
+                  cursor pointer
+
+
+
+
+
+          .content-row
+            @media (min-width 768px)
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              flex-direction row
+              padding-top 36px
+
+            .end-blocks
+              width 100%
+              height auto
+              padding 20px 15px
+              box-sizing border-box
+              @media (min-width 768px)
+                width 50%
+                padding-top 0
+                padding-bottom 20px
+                padding-right 0
+                padding-left 20px
+
+
+              .end-block
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                @media (min-width 768px)
+                  margin-bottom 11px
+
+
+                p
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 18px
+                  font-weight 300
+                  letter-spacing 1px
+
+                span
+                  color #0b0f18
+                  font-family "GillSansC"
+                  font-size 18px
+                  font-weight 600
+                  letter-spacing 1px
+
+
+            .good-block
+              width 100%
+              height auto
+              padding 0 15px
+              box-sizing border-box
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              @media (min-width 768px)
+                width 50%
+                justify-content flex-start
+                align-items flex-start
+
+
+              .gb
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                margin-bottom 29px
+                @media (min-width 768px)
+                  margin-bottom 16px
+                  width 80%
+
+                p
+                  color #0b0f18
+                  font-family "GillSansLightC"
+                  font-size 18px
+                  font-weight 300
+                  letter-spacing 1px
+                  line-height 18px
+
+                span
+                  opacity 0.83
+                  color #0b0f18
+                  font-family "GillSansC"
+                  font-size 36px
+                  font-weight 600
+                  letter-spacing 1px
+
+              button
+                margin-bottom 12px
+                border none
+
+
+
+
+        p
+          color #e04746
+          font-family "GillSansLightC"
+          font-size 14px
+          font-weight 300
+          letter-spacing 1px
+          line-height 16px
+          @media (min-width 768px)
+            br
+              display none
+
+
+        .calc-hidden
+          display none

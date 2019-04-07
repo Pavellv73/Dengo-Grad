@@ -295,10 +295,6 @@ $(document).ready(function () {
     $('input').removeClass('incorrect correct');
   });
 
-  $(".answer div a").click(function () {
-      $(this).parent().find(".answer-text").slideToggle();
-  });
-
 
   $(".burger-block").click(function () {
     $(".habmenu").slideToggle('300');
